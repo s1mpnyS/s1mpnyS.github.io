@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: giaphong.ngo@outlook.com.vn # your email address
+github_username: s1mpnyS # your GitHub user name
+linkedin_username: gia-phong-ngo # your LinkedIn user name
+cv_pdf: /assets/rendercv/rendercv_output/Gia_Phong_Ngo_CV.pdf # web CV generated from _data/cv.yml (no grades)
+# scholar_userid: # your Google Scholar ID, add it once you have a profile
+# orcid_id: # your ORCID ID, add it once you have one

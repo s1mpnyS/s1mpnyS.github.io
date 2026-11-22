@@ -1,0 +1,154 @@
+cv:
+  name: Gia Phong Ngo
+  email: giaphong.ngo@outlook.com.vn
+  location: Ho Chi Minh City, Vietnam
+
+  social_networks:
+    - network: GitHub
+      username: s1mpnyS
+    - network: LinkedIn
+      username: gia-phong-ngo
+
+  sections:
+    Education:
+      - institution: International University, VNU-HCM
+        location: Ho Chi Minh City, Vietnam
+        url: https://hcmiu.edu.vn/en/
+        area: Logistics and Supply Chain Management
+        degree: B.Eng.
+        start_date: 2024-09
+        end_date: 2028-06
+        highlights:
+          - "Advisor: Assoc. Prof. Dr. Phan Nguyen Ky Phuc"
+          - "Coursework: Deterministic Models in Operations Research, Multi-Criteria Decision Making, Logistics Engineering and Supply Chain Design, Engineering Probability and Statistics, Supply Chain Modelling and Simulation"
+
+    Experience:
+      - company: Human–Machine Interface Laboratory, School of IEM, International University
+        position: Undergraduate Researcher
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - "Neural combinatorial optimization: formulate the Fleet Size and Mix Vehicle Routing Problem (FSMVRP) and solve it with a Lookahead-Aware Hierarchical Reinforcement Learning (LA-HRL) framework, using attention-based encoder–decoders (POMO-style, GAT) trained with PPO in PyTorch."
+          - "Hybrid metaheuristics: couple LA-HRL with Adaptive Large Neighborhood Search (ALNS), using the trained policy as a warm-start generator to accelerate convergence."
+
+      - company: Human–Machine Interface Laboratory, School of IEM, International University
+        position: Teaching Assistant
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Mentor undergraduate projects in Introduction to Logistics and Supply Chain Management and Introduction to Industrial and Systems Engineering.
+
+      - company: IEM Academic Club (IAC), School of IEM, International University
+        position: Vice Head
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2025-08
+        end_date: 2026-08
+        highlights:
+          - "Project leader of the seminars Smart Ports, Stronger Trade: The Future of Vietnam Maritime Logistics, and The Planning Engineer: Designing Your Path Ahead."
+          - Supervised the Academic Development Department and coordinated the planning and execution of academic initiatives.
+          - Tutored undergraduates in Deterministic Models in Operations Research, Chemistry for Engineers, Production Management and Calculus I.
+
+      - company: International University, VNU-HCM
+        position: Teaching Assistant, Calculus I and Calculus II
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2025-02
+        end_date: 2025-12
+        highlights:
+          - Assisted the lecturer in tutorial and problem-solving sessions.
+          - Supported students through office hours, grading and course administration.
+
+      - company: Vietnam Young Logistics Talents Competition
+        position: Academic Committee Member (national round); Project Leader (International University round)
+        location: Vietnam
+        date: 2026
+
+    Publications:
+      - title: Lookahead-aware Hierarchical Reinforcement Learning for solving the Fleet Size and Mix Vehicle Routing Problem
+        authors:
+          - Gia Phong Ngo
+          - Nguyen Ky Phuc Phan
+          - Thanh Dat Nguyen
+          - Tuan Khoi Nguyen
+          - Truong Nguyen Nguyen
+        journal: Connection Science (under review)
+        publisher: Connection Science (under review)
+        date: 2026
+
+      - title: A Hybrid Adaptive Large Neighborhood Search Framework with Look-Ahead-Aware Hierarchical Reinforcement Learning for the Fleet Size and Mix Vehicle Routing Problem
+        authors:
+          - Gia Phong Ngo
+          - Nguyen Ky Phuc Phan
+          - Tuan Khoi Nguyen
+          - Thanh Dat Nguyen
+          - Truong Nguyen Nguyen
+        journal: Engineering Applications of Artificial Intelligence (under review)
+        publisher: Engineering Applications of Artificial Intelligence (under review)
+        date: 2026
+
+      - title: A Deep Reinforcement Learning-Guided Adaptive Large Neighborhood Search for Parallel Batch Processing Machine Scheduling with Incompatible Families
+        authors:
+          - Gia Phong Ngo
+          - Hang Giang Anh Nguyen
+          - Anh Gia Phuc Nguyen
+        journal: Engineering Optimization (under review)
+        publisher: Engineering Optimization (under review)
+        date: 2026
+
+      - title: Conditional FIFO Profiles for Coordinated Repair in Time-Dependent Inventory Routing
+        authors:
+          - Gia Phong Ngo
+        journal: Computers & Operations Research (under review)
+        publisher: Computers & Operations Research (under review)
+        date: 2026
+
+    Projects:
+      - name: Simulation-Based Optimization of Smart Port Design
+        start_date: 2025-02
+        end_date: 2025-07
+        summary: Discrete-event simulation of Tan Cang – Cai Mep Container Terminal in Arena.
+        highlights:
+          - Evaluated the integration of automation technologies at the terminal.
+          - Analyzed operational bottlenecks and reallocated resources to maximize throughput.
+
+    Awards:
+      - title: University Entrance Valedictorian
+        authors:
+          - International University, VNU-HCM
+        awarder: International University, VNU-HCM
+        date: 2024
+
+      - title: VNU-HCM Valedictorian Scholarship
+        authors:
+          - Vietnam National University, Ho Chi Minh City
+        awarder: Vietnam National University, Ho Chi Minh City
+        date: 2024
+
+      - title: Full-Tuition Undergraduate Scholarship (four years, 2024–2028)
+        authors:
+          - International University, VNU-HCM
+        awarder: International University, VNU-HCM
+        date: 2024
+
+      - title: Academic Scholarship
+        authors:
+          - International University, VNU-HCM
+        awarder: International University, VNU-HCM
+        date: 2025
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python (PyTorch, NumPy, Pandas, SciPy, Matplotlib, Optuna)"
+      - name: Solvers and simulation
+        icon: fa-solid fa-gears
+        keywords: "IBM CPLEX, Arena"
+      - name: Writing and versioning
+        icon: fa-solid fa-pen-nib
+        keywords: "LaTeX, Git, GitHub"
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-route
+        keywords: "Operations Research, Neural Combinatorial Optimization, Deep Reinforcement Learning, Graph Neural Networks, Metaheuristics, Mathematical Modeling, Discrete-Event Simulation, Logistics Optimization"

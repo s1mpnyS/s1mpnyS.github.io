@@ -1,0 +1,6 @@
+# Add co-author homepages here so their names link on the publications page.
+# Format (key is the last name, lower case):
+# "phan":
+#   - firstname: ["Nguyen Ky Phuc"]
+#     url: https://...
+{}

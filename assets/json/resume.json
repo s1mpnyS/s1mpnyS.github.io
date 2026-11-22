@@ -1,0 +1,12 @@
+{
+  "basics": {
+    "name": "Gia Phong Ngo",
+    "label": "Undergraduate Researcher, Operations Research and AI",
+    "email": "giaphong.ngo@outlook.com.vn",
+    "location": { "city": "Ho Chi Minh City", "countryCode": "VN" },
+    "profiles": [
+      { "network": "GitHub", "username": "s1mpnyS", "url": "https://github.com/s1mpnyS" },
+      { "network": "LinkedIn", "username": "gia-phong-ngo", "url": "https://www.linkedin.com/in/gia-phong-ngo" }
+    ]
+  }
+}
