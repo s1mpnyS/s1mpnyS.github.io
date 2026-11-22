@@ -1,4 +1,4 @@
-"ConnSci":
+"CCOS":
   url: https://www.tandfonline.com/journals/ccos20
   color: "#1f6f8b"
 
@@ -6,10 +6,10 @@
   url: https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence
   color: "#b5832a"
 
-"EngOpt":
+"GENO":
   url: https://www.tandfonline.com/journals/geno20
   color: "#2a7a72"
 
-"COR":
+"C&OR":
   url: https://www.sciencedirect.com/journal/computers-and-operations-research
   color: "#8a4b7a"
