@@ -164,7 +164,7 @@
   list-style: none;
   margin: 0.5rem 0 1.5rem;
   padding: 0 0 0 1.5rem;
-  border-left: 2px solid var(--global-divider-color);
+  border-left: 2px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
 }
 .news .timeline-item {
   position: relative;
@@ -197,4 +197,17 @@
 }
 .news .timeline-body {
   line-height: 1.55;
+}
+
+// Project card thumbnails: same height whatever the figure's aspect ratio
+.projects .card-img {
+  height: 220px;
+  object-fit: contain;
+  background: #fff;
+  padding: 0.5rem;
+}
+
+// Breathing room above home page sections
+.post article > h2 {
+  margin-top: 2.5rem;
 }
