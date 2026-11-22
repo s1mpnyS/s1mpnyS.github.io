@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Manuscripts in reverse chronological order. All four are currently under review.
 nav: true
 nav_order: 2

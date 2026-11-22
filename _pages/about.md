@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Undergraduate researcher in Logistics and Supply Chain Management, <a href='https://hcmiu.edu.vn/en/'>International University, VNU-HCM</a>
 

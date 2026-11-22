@@ -53,8 +53,7 @@ cv:
       - company: International University, VNU-HCM
         position: Teaching Assistant, Calculus I and Calculus II
         location: Ho Chi Minh City, Vietnam
-        start_date: 2025-02
-        end_date: 2025-12
+        date: Feb – Dec 2025
         highlights:
           - Assisted the lecturer in tutorial and problem-solving sessions.
           - Supported students through office hours, grading and course administration.
@@ -105,8 +104,7 @@ cv:
 
     Projects:
       - name: Simulation-Based Optimization of Smart Port Design
-        start_date: 2025-02
-        end_date: 2025-07
+        date: Feb – Jul 2025
         summary: Discrete-event simulation of Tan Cang – Cai Mep Container Terminal in Arena.
         highlights:
           - Evaluated the integration of automation technologies at the terminal.

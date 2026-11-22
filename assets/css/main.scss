@@ -26,3 +26,135 @@
 .publications .author > em {
   font-weight: 700;
 }
+
+// ===========================================================================
+// Site-specific fixes: styles that al-folio v1 (Tailwind) currently misses,
+// plus personal tweaks (bold last name, capitalized headings).
+// ===========================================================================
+
+// Name: light first + middle name, bold last name (about page and navbar)
+.post-header h1.post-title:has(> .font-weight-bold) {
+  font-weight: 700;
+}
+.post-header h1.post-title > .font-weight-bold {
+  font-weight: 300;
+}
+.navbar-brand.title {
+  font-weight: 700 !important;
+}
+.navbar-brand.title > .font-weight-bold {
+  font-weight: 300 !important;
+}
+
+// Capitalized section headings ("News", "Selected Publications", project categories)
+.post h2 > a,
+.projects h2.category {
+  text-transform: capitalize;
+}
+
+// Home: profile caption in the body font instead of monospace
+.profile .more-info,
+.profile .more-info p {
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0.15rem;
+}
+@media (max-width: 575.98px) {
+  .profile {
+    width: 100% !important;
+    max-width: none;
+    float: none !important;
+    text-align: center;
+    margin: 0 auto 1.25rem;
+  }
+  .profile img,
+  .profile figure,
+  .profile picture {
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Contact icons
+.contact-icons {
+  font-size: 2.2rem;
+}
+.contact-icons a {
+  margin: 0 0.35rem;
+}
+
+// Project cards: readable titles that stay inside the card
+.projects .card-title {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+.projects .card-text {
+  font-size: 0.9rem;
+}
+.projects .card {
+  height: 100%;
+}
+
+// CV page: restore list-group styling lost in the Bootstrap -> Tailwind move
+.cv ul.list-group {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.cv .list-group-item {
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+  background: transparent;
+}
+.cv .list-group-flush > .list-group-item:last-child {
+  border-bottom: 0;
+}
+.cv .card-title {
+  font-size: 1.6rem;
+}
+@media (min-width: 768px) {
+  .cv .list-group-item > .row > .date-column {
+    flex: 0 0 24%;
+    max-width: 24%;
+  }
+  .cv .list-group-item > .row > .col-md-10 {
+    flex: 0 0 76%;
+    max-width: 76%;
+  }
+  .cv ul.items {
+    margin-left: 1.5rem;
+  }
+}
+.cv .date-column .table-cv {
+  width: 100%;
+}
+.cv .date-column .location {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  margin: 0.35rem 0 0;
+}
+.cv .list-group-item h6.title {
+  margin-top: 0;
+}
+.cv ul.items {
+  padding-left: 1.1rem;
+  margin-top: 0.4rem;
+}
+.cv ul.items > li {
+  list-style: disc;
+  margin-bottom: 0.2rem;
+}
+
+// Teaching page headings
+.post article h4 {
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
