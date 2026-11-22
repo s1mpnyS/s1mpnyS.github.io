@@ -4,6 +4,6 @@
 email: giaphong.ngo@outlook.com.vn # your email address
 github_username: s1mpnyS # your GitHub user name
 linkedin_username: gia-phong-ngo # your LinkedIn user name
-cv_pdf: /assets/rendercv/rendercv_output/Gia_Phong_Ngo_CV.pdf # web CV generated from _data/cv.yml (no grades)
+cv_pdf: /assets/pdf/Gia_Phong_Ngo_CV.pdf # CV PDF
 # scholar_userid: # your Google Scholar ID, add it once you have a profile
 # orcid_id: # your ORCID ID, add it once you have one

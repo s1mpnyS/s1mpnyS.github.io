@@ -2,7 +2,7 @@
 layout: page
 title: Smart port simulation
 description: Discrete-event simulation of Tan Cang – Cai Mep Container Terminal
-img: assets/img/projects/smart_port.png
+img: assets/img/projects/smart_port_simulation.png
 importance: 3
 category: academic
 ---
@@ -17,9 +17,9 @@ A discrete-event simulation model built in **Arena** to evaluate how automation 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/smart_port.png" alt="Process flow through the container terminal" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/smart_port_simulation.png" alt="Arena animation of the terminal: yard blocks with cranes, skyrail station, smart gate and AGV station" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Schematic of the modelled terminal flow.
+    Arena model of the terminal: yard blocks with cranes, the skyrail station, smart gate-in and gate-out, and the AGV station.
 </div>

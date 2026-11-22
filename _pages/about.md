@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Human–Machine Interface Laboratory</p>
     <p>School of Industrial Engineering and Management</p>
+    <p>International University, VNU-HCM</p>
     <p>Ho Chi Minh City, Vietnam</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a B.Eng. student in Logistics and Supply Chain Management at International University, VNU-HCM, working with Assoc. Prof. Dr. Phan Nguyen Ky Phuc in the Human–Machine Interface Laboratory. I want to build a research career in **operations research and artificial intelligence**, developing optimization methods and decision-making algorithms for real logistics and supply chain problems.
+I am a B.Eng. student in Logistics and Supply Chain Management at International University, VNU-HCM, working in the Human–Machine Interface Laboratory. I want to build a research career in **operations research and artificial intelligence**, developing optimization methods and decision-making algorithms for real logistics and supply chain problems.
 
 My current work sits between combinatorial optimization and deep reinforcement learning:
 

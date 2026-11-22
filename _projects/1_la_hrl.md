@@ -2,7 +2,7 @@
 layout: page
 title: LA-HRL for heterogeneous-fleet routing
 description: Hierarchical reinforcement learning for the Fleet Size and Mix Vehicle Routing Problem
-img: assets/img/projects/fsmvrp.png
+img: assets/img/projects/lahrl_framework.png
 importance: 1
 category: research
 related_publications: true
@@ -19,10 +19,10 @@ related_publications: true
 The encoder–decoders are attention-based (GAT, POMO-style) and trained end to end with PPO in PyTorch, using a POMO baseline.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/fsmvrp.png" alt="Depot and customer routes coloured by vehicle type" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/lahrl_framework.png" alt="Candidate vehicles, the employed fleet, and routes from a single depot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Illustration only: one depot, customers sized by demand, routes coloured by vehicle type.
+    The FSMVRP setting: choose vehicle types from the candidate set, form the employed fleet, and route it from a single depot.
 </div>
